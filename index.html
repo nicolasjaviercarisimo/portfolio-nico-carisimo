@@ -1,0 +1,279 @@
+<!--https://www.youtube.com/watch?v=sQoiM7i5Nqc&list=RDCMUCARtKuN24xix9o30mGUQvkw&start_radio=1-->
+<!--Hora 01:23:52 Seg-->
+<!--fijarse min 36 la parte que crea los codigos para la experiencia y demas ver eso y completar despues-->
+<!--fijarse como ponerle musica y poner el tema "climbers & tony metric - promises "-->
+<!--buscar en la carpeta del portfolio como subir a la web ver videos y subir al repositorio -->
+
+<!DOCTYPE html> <!-- declara el tipo de documento-->
+<html lang="en">  <!--html es la raíz del documento HTML y lang="en" indica que el idioma utilizado en el contenido es el inglés-->
+
+<!--encabezado: metadatos,links a archivos externos como css y scripst de JS-->
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <title> Portfolio Personal </title>
+   
+
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--importa  especificando la ubicacion al archivo "style.css"-->
+
+    <!--box icons caja de iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  <!-- importa hoja de estilo externa desde una URL específica, atributo href especifica la URL que se va a importar.-->
+
+     
+</head>
+
+<!--CUERPO-->
+<body>
+    <!--color #beca11 -->
+
+    <!-- <body style="background-color:#01221c ;"><body>-->
+        <body style="background-color:#000000 ;"> <!-- #01221c-->
+
+    <header class="header">  <!--encabezado de página con un menú de navegación-->
+        <a href="#" class="logo"> Nicolas </a>
+        <div class="bx bx-menu bx-x" id="menu-icon"></i></div>     <!--poner antes de bx-menu ("bx")--> 
+        <nav class="navbar">  <!--barra de navegación-->
+            <a href="#Inicio" class="active">Inicio</a>
+            <a href="#Acerca de Mi">Acerca de mi</a>
+            <a href="#Educacion">Educacion</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Contacto">Contacto</a>
+
+            <span class="active-nav"></span> <!--resalta visualmente el elemento del menú activo-->
+
+        </nav>
+    </header>
+
+    
+
+    <!---seccion home-->
+    <section class="home" id="Inicio"> <!--la clase home difine seccion con la clase css y el atributo id identifica solo esa seccion del documento-->
+    <div class="home-content"> <!--contenedor que agrupa el contenido de la seccion inicio-->
+        <h1> <span> Nicolas Javier Carisimo </span></h1>
+        <div class="text-animate">  <!--crea efecto visual dentro del contenido-->
+            <h3>Desarrollador Fullstack</h3>
+        </div>
+              <!--parrafo-->
+            <p> ¡Hola! Soy un desarrollador Full Stack apasionado por la creación de soluciones web con tecnologías como HTML, CSS, JavaScript y React en el front-end, y Python y Django en el back-end. Echa un vistazo a mi portfolio para ver algunos proyectos y no dudes en contactarme! </p>
+
+            <div class="btn-box">
+              <a href="cv/cv.pdf"  target="_blank" class="btn">Contratar</a> <!-- boton contratar abre mi cv por medio de target blank en otra pestaña-->
+              <a href="#Contacto" class="btn">Hablemos</a> <!--el boton hablemos me lleva a contacto-->
+            </div>    
+        </div>
+    </div>   
+
+    
+    <div class="floating-image"> <!--imagen flotante , alineado a la derecha con clase parpadear, estilo ancho de imagen a 480 pixeles, margen superior de 100 píx-->
+        <img src="img/88916f77-0019-4ef4-bf9a-259c11ce5732ELEGIDA.png"  align="right" alt="Marca de agua" class="parpadear" style="width: 480px" style="margin-top: 100px;">  
+    
+    </div>
+      
+ 
+    <div class="home-sci"> <!--iconos de redes sociales, la clase llama por medio del link al icono de la pagina boxicon-->
+            <a href="https://www.facebook.com/nicolas.carisimo/?locale=es_LA" target="_blank"><i class='bx bxl-facebook-circle'></i> </a> 
+            <a href="https://www.instagram.com/carisimonicolas" target="_blank"><i class='bx bxl-instagram'></i></a>  
+            <a href="http://wa.link/xp0233" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://t.me/NicolasCarisimo" target="_blank"><i class='bx bxl-telegram'></i></i></a>
+            <a href="https://discord.com/" target="_blank"><i class='bx bxl-discord-alt' ></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    </div>
+ 
+    
+
+    </section>
+
+<!--seccion diseño-->
+<section class="Acerca de Mi" id="Acerca de Mi">
+    <h2 class="heading">Acerca <span> de Mi</span></h2> <!--clase encabezado donde me permite dividir los textos por el span y darles estilos diferentes por separado-->  
+
+    <div class="about-img"> <!--imagen enla seccion acerca de mi , ruta de imagen -->
+        <img src="img/88916f77-0019-4ef4-bf9a-259c11ce5732ELEGIDA.png" alt="">
+        <!--<span class="circle-spin"></span>  (tendria q dar la animacion de circulos girando alrededor de la imagen) --> 
+    </div>
+    <div class="about-content">  <!--contenido relacionado con la sección-->
+        <h3>⬤ Desarrollador Fullstack ⬤</h3>
+        <p> ¡Hola! Soy un desarrollador Full Stack apasionado por la creación de soluciones web con tecnologías como HTML, CSS, JavaScript y React en el front-end, y Python y Django en el back-end.  ¡Estoy aca para ayudarte! </p>
+
+        <div class="btn-box btns"> <!--botones relacionados con la sección -->
+            <a href="#" class="btn btn-leer-mas">Leer mas</a> <!--href="#" indica que el enlace no lleva a ninguna página específica, ya que el valor "#" se usa a menudo como marcador de posición-->
+        </div>
+    </div>
+</section>
+
+<!-- seccion diseño de educacion ,  estructura y muestra info -->
+<section class="Educacion" id="Educacion"> <!-- La clase se utiliza para aplicar estilos específicos a esta sección, y el identificador se utiliza para referenciarla de manera única en el código HTML. El identificador también puede ser utilizado en enlaces o navegación interna para desplazarse directamente a esta sección.-->
+    <h2 class="heading">Educa<span>cion</span></h2> <!--encabezado y el texto educa esta dentro del elemento h2 y cion en span -->
+
+    <div class="Educacion-row"> <!--seccion educacion-->
+        <div class="Educacion-column"></div> <!-- alinea cntenido dentro de la linea formando una columna-->
+           <h3 class="title"></h3>        <!-- colocar "educacion si se quiere como titulo <h3 class="title">ACA</h3> " -->  <!--línea crea un encabezado de nivel 3 <h3></h3> -->
+
+           <div class="Educacion-box"> <!-- crea contenedor relacionado a educacion formando las cajas y agrupa y aplica estilos  -->
+               <div class="Educacion-content">
+                 <div class="content">
+                    <div class="year"><i class='bx bx-calendar'></i> 2021 - 2023</div> <!-- muestra el año, class='bx bx-calendar llama al icono-->
+                    <h3> ⬤ Tecnico Superior en Desarrollo de software - Roque gonzalez </h3>
+                    <p> Como desarrollador de software, tengo la capacidad de crear soluciones tecnológicas a medida para satisfacer las necesidades de mis clientes. Ya sea creando aplicaciones móviles, sitios web, sistemas de gestión de bases de datos, entre otros, estoy enfocado en desarrollar soluciones innovadoras que permitan a las empresas mejorar su productividad y su rentabilidad. Con un enfoque en la calidad, la escalabilidad y la usabilidad, siempre me aseguro de que mis proyectos estén diseñados y construidos de manera eficiente y efectiva.</p>
+                </div>
+            </div>
+
+            <div class="Educacion-content">
+                <div class="content">
+                   <div class="year"><i class='bx bx-calendar'></i> 2022 </div>
+                   <h3> ⬤ Introduccion a la ciberseguridad - Silicon Misiones </h3>
+                   <p> En mi curso de ciberseguridad aprendí habilidades esenciales para proteger la información sensible y mantener seguros los sistemas y redes en línea. Desarrollé una comprensión sólida de las amenazas cibernéticas y cómo prevenirlas, así como de las técnicas de criptografía y seguridad de la información. Este conocimiento me permite implementar prácticas de seguridad efectivas en mis proyectos y contribuir a un entorno en línea más seguro para todos.</p>
+        </div>
+          <div class="Educacion-content">
+              <div class="content">
+                  <div class="year"><i class='bx bx-calendar'></i> 2023 - </div>
+                  <h3> ⬤ Ingles para programadores beginner - Silicon Misiones </h3>
+                  <p> Aprendí habilidades esenciales para comunicarme eficazmente en inglés en el ámbito de la programación. Aprendí a presentarme, hacer preguntas y describir mi trabajo y habilidades en inglés. También aprendí vocabulario y frases comunes utilizadas en programación, lo que me ha permitido entender y escribir mejor documentación técnica en inglés. En general, este curso me ha ayudado a mejorar mi capacidad de comunicación en inglés en el ámbito de la programación. </p>
+                </div>
+                  <div class="Educacion-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bx-calendar'></i> 2023 - </div>
+                  <h3> ⬤ Ingles para programadores intermediate - Silicon Misiones </h3>
+                  <p> Adquirí habilidades para poder comunicarme de manera efectiva en un ambiente de programación. Mejoré mi capacidad para entender y utilizar términos técnicos, así como para redactar correos electrónicos profesionales y documentación de código en inglés. Además, aprendí a comprender mejor la cultura y las normas de comunicación en equipos de programación internacionales.</p>
+                </div>
+                  <div class="Educacion-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bx-calendar'></i> 2023 - </div>
+                  <h3> ⬤ Introduccion a la programacion - Silicon Misiones </h3>
+                  <p> Aprendí los fundamentos de la programación, incluyendo conceptos como variables, condicionales, ciclos y funciones. Además, adquirí habilidades en lógica de programación, resolución de problemas y diseño de algoritmos. Este curso me permitió sentar las bases para mi carrera como desarrollador de software.</p>
+                </div>
+                  <div class="Educacion-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bx-calendar'></i> 2023 - </div>
+                  <h3> ⬤ Base de datos - Polotic </h3>
+                  <p>  aprendí a diseñar, crear y administrar bases de datos. Adquirí habilidades para manejar y optimizar consultas SQL, trabajar con diferentes modelos de bases de datos y entender los conceptos clave de la administración de bases de datos, como la normalización y la integridad referencial. Además, aprendí a utilizar herramientas populares de gestión de bases de datos como MySQL y SQLite.</p>
+                </div>
+                  <div class="Educacion-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bx-calendar'></i> 2023 - </div>
+                  <h3> ⬤ AWS Cloud - Silicon Misiones </h3>
+                  <p> Durante mi curso de AWS Cloud aprendí a diseñar, implementar y mantener soluciones escalables y altamente disponibles en la nube. Aprendí sobre los servicios de AWS, como EC2, S3, RDS y Lambda, y cómo usarlos para implementar soluciones en la nube. También aprendí a configurar la seguridad y la escalabilidad de las aplicaciones y a trabajar con herramientas de automatización como CloudFormation y Elastic Beanstalk. Este curso me proporcionó habilidades prácticas para administrar y mantener aplicaciones en la nube utilizando AWS.</p>
+                </div>
+              </div>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<!--Diseño de la seccion habilidades-->
+<section class="Habilidades" id="Habilidades"> <!--identificar y estilizar esta sección en css o interactua utlizando JS-->
+    <h2 class="heading">Habilidades <span>y</span> tecnologias</h2>
+
+    <div class="skills-row"> <!--agrupa elementos relacionados dentro de la sección -->
+        <div class="skills-column"></div>  <!--contenedor organiza elementos dentro de la fila de esta seccion-->
+        <h2 class="title"> </h2>     <!-- colocar "Tecnologias y Habilidades Profesionales" si se quiere arreglar -->
+
+        <div class="skills-box"> <!-- caja -->
+            <div class="skills-content"> <!-- agrupa contenido-->
+                <div class="progress">
+                    <h3>HTML <span><i class='bx bxl-html5'></i></span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>CSS <span><i class='bx bxl-css3' ></i></span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>JAVASCRIPT <span><i class='bx bxl-javascript' ></i></span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>REACT <span><i class='bx bxl-react' ></i></span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>PYTHON <span><i class='bx bxl-python' ></i></span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>DJANGO <span><i class='bx bxl-django' ></i></span></h3>
+                </div>
+
+                <!-- <h3 class="title"></h3>    -----colocar  "Habilidades Profesionales" para intentar arreglar despues el tamaño (opcional)-->
+
+                <div class="progress">
+                    <h3>DESARROLLADOR DE SOFTWARE <span>✓</span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>DISEÑADOR WEB <span>✓</span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>DESARROLLADOR WEB <span>✓</span></h3>
+                </div>
+
+                <div class="progress">
+                    <h3>DESARROLLADOR DE SOFTWARE MOVIL <span>✓</span></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!--seccion contacto-->
+<section class="Contacto" id="Contacto">
+    <h2 class="heading">Cont<span>acto</span></h2>
+
+    <form action="https://formspree.io/f/xknaegaa"  method="POST">  <!-- atributo action especifica la URL donde se envia los datos del form, donde se procesa los datos del formulario. atributo method especifica el método de envío que es valor"POST"significa que los datos del form serán enviados de forma segura y en segundo plano al servidor especificado en el atributo action. -->
+       <!--establece que cuando se envíe el form, los datos se envien al servidor en la URL "https://formspree.io/f/xknaegaa" utilizando el método POST.--> 
+       
+        <div class="input-box"> <!--contenedor para los campos de entrada y de texto-->
+            <div class="input-field"> <!--envuelven cada campo de entrada y campo de texto.-->
+                <input name="Nombre Completo " type="text"  placeholder="Nombre Completo" required> <!-- name=especifica el nombre del campo en los datos enviados, type=indica campo de texto, placeholder= muestra el texto en el campo y required=campo obligatorio-->
+                <span class="focus"></span> <!--cuando selecciono me permite ver el efecto visual de transition-->
+            </div>
+            <div class="input-field">
+                <input name="Direccion de Correo " type="text"  placeholder="Direccion de Correo" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input name="Numero de Celular " type="number"  placeholder="Numero de Celular" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input name="Asunto " type="text"  placeholder="Asunto" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="textarea-field"> <!--area del campo del texto, definen un campo de texto de varias líneas para el mensaje -->
+            <textarea name="Tu Mensaje " id="" cols="30" rows="10"  placeholder="Tu Mensaje" required></textarea> <!--name especifica el nombre del campo en los datos enviados, el atributo cols define el número de columnas visibles, el atributo rows define el número de filas visibles, el atributo placeholder muestra un texto de ejemplo en el campo y el atributo required indica que el campo es obligatorio.-->
+            <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns"> <!--crea boton de envio de form , atributo type especifica q es boton de envio, aplica un estilo de botón a través de CSS-->
+            <button type="submit"  target="_blank" class="btn">Enviar</button>
+        </div>
+       
+    </form> 
+</section>
+
+<!--pie de pagina-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright & Copy; 2023 by NicolasCarisimo | Todos los Derechos Reservados.   </p>
+    </div> 
+
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bxs-upvote' ></i></a>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>  <!--carga archivo de script externo llamado "script.js" en la página web-->
+
+</body>
+
+<html>
