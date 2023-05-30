@@ -61,6 +61,6 @@ form.addEventListener("submit", (event) => {
 
   // Actualiza la página después de enviar el formulario
   location.reload();
-}, 1500); // 1000 milisegundos = 1 segundo
+}, 2000); // 1000 milisegundos = 1 segundo
 
 });
